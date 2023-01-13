@@ -1,5 +1,10 @@
 <template>
+ <div>
+  <NavigationBar/>
+  <Header/>
   <Home/>
+  <Footer/>
+ </div>
 </template>
 
 <script>
