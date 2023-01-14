@@ -2,7 +2,7 @@
         <div class="topnav">
         <nuxt-link id= "home" to="/">MEL.</nuxt-link>
         <nuxt-link id= "resume" to="/resume">resume</nuxt-link>
-        <nuxt-link id= "project" to="/projects">projects</nuxt-link>
+        <!-- <nuxt-link id= "project" to="/projects">projects</nuxt-link> -->
         <nuxt-link id= "contact" to="/contact">contact</nuxt-link>
     </div>
 </template>
@@ -27,10 +27,10 @@
     text-decoration: none;
     color: black;
 }
-#project{
+/* #project{
     text-decoration: none;
     color: black;
-}
+} */
 #contact{
     text-decoration: none;
     color: black;
