@@ -1,9 +1,9 @@
 <template>
         <div class="topnav">
-        <nuxt-link to="/" id="#home">home</nuxt-link>
-        <nuxt-link to="/resume">resume</nuxt-link>
-        <nuxt-link to="/projects">projects</nuxt-link>
-        <nuxt-link to="/contact">contact</nuxt-link>
+        <nuxt-link id= "home" to="/">MEL.</nuxt-link>
+        <nuxt-link id= "resume" to="/resume">resume</nuxt-link>
+        <nuxt-link id= "project" to="/projects">projects</nuxt-link>
+        <nuxt-link id= "contact" to="/contact">contact</nuxt-link>
     </div>
 </template>
 <style> 
@@ -17,5 +17,22 @@
     text-align: right;
     background-color: #ECE4DB;
     padding: 20px;
+}
+#home{
+    float: left;
+    text-decoration: none;
+    color: black;
+}
+#resume{
+    text-decoration: none;
+    color: black;
+}
+#project{
+    text-decoration: none;
+    color: black;
+}
+#contact{
+    text-decoration: none;
+    color: black;
 }
 </style>
